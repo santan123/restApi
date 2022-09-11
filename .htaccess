@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^api/customer/?$ api/handler.php
+RewriteRule ^api/customer/(0-9+)?$ api/handler.php?id=$1
